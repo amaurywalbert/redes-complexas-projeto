@@ -73,9 +73,50 @@ Todos os notebooks podem ser executados diretamente no **Google Colab**, sem nec
 
 ## Opção 1 – Google Colab (recomendado)
 
-Basta abrir qualquer notebook utilizando os links acima.
+Todos os notebooks podem ser executados diretamente no **Google Colab** utilizando os links apresentados anteriormente.
 
-O Google Colab instalará automaticamente as dependências necessárias.
+Antes de executar qualquer notebook, é necessário criar a estrutura de diretórios utilizada pelo projeto e adicionar os arquivos PDB correspondentes.
+
+### Estrutura esperada
+
+```text
+data/
+└── raw/
+    ├── 1A3N/
+    │   └── 1A3N.pdb
+    │
+    └── 6B1T/
+        ├── 6b1t-pdb-bundle1.pdb
+        └── 6b1t-pdb-bundle2.pdb
+```
+
+### Arquivos necessários
+
+**Proteína 1A3N**
+
+Disponível em:
+
+[data/raw/1A3N/1A3N.pdb](./data/raw/1A3N/1A3N.pdb)
+
+ou
+
+https://www.rcsb.org/structure/1A3N
+
+**Proteína 6B1T**
+
+Esses arquivos fazem parte do pacote compactado (**PDB Bundle**) disponibilizado pelo RCSB para a estrutura 6B1T.
+
+Disponível em:
+
+[data/raw/6B1T/6b1t-pdb-bundle1.pdb](./data/raw/6B1T/6b1t-pdb-bundle1.pdb)
+[data/raw/6B1T/6b1t-pdb-bundle2.pdb](./data/raw/6B1T/6b1t-pdb-bundle2.pdb)
+
+ou
+
+https://www.rcsb.org/structure/6B1T
+
+Após criar os diretórios e copiar os arquivos PDB para os respectivos locais, o notebook poderá ser executado normalmente.
+
 
 ---
 
@@ -149,8 +190,8 @@ As visualizações tridimensionais produzidas com **Plotly** permanecem interati
 
 A pasta **doc/** contém:
 
-* relatório final do projeto em PDF;
-* apresentação utilizada na disciplina (slides em PDF).
+*   [Relatório do Projeto em PDF](./docs/Relatório.pdf)
+*   [Slides em PDF](./docs/Slides.pdf)
 
 ---
 
