@@ -1,12 +1,12 @@
 # Redes Complexas Aplicadas à Análise Estrutural de Proteínas
 
-Projeto desenvolvido para a disciplina **Redes Complexas** do Programa de Doutorado em Ciência da Computação (UFU / DINTER IF Goiano), com o objetivo de modelar proteínas como redes complexas, analisar suas propriedades topológicas e detectar comunidades biologicamente relevantes.
+Projeto desenvolvido para a disciplina **Redes Complexas** do Programa de Doutorado em Ciência da Computação (UFU), com o objetivo de modelar proteínas como redes complexas, analisar suas propriedades topológicas e detectar comunidades biologicamente relevantes.
 
 ## Objetivos
 
 O projeto investiga a aplicação de técnicas de Redes Complexas na análise estrutural de proteínas, contemplando:
 
-* modelagem de proteínas como Redes de Contato por Resíduos (Residue Contact Networks – RCN);
+* modelagem de proteínas como Redes de Contato por Resíduos (Residue Contact Networks – RCN), Afinidade Bioquímica e Homologia entre Cadeias;
 * análise topológica da rede;
 * cálculo de medidas de centralidade;
 * análise espectral da matriz Laplaciana;
@@ -158,8 +158,5 @@ A pasta **doc/** contém:
 
 **Amaury Walbert**
 
-Professor do Instituto Federal Goiano
-
 Doutorando em Ciência da Computação – Universidade Federal de Uberlândia (UFU)
-
 Disciplina: Redes Complexas
