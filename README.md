@@ -71,7 +71,32 @@ Todos os notebooks podem ser executados diretamente no **Google Colab**, sem nec
 
 # Como executar o projeto
 
-## Opção 1 – Google Colab (recomendado)
+
+## Opção 1 – Execução local (recomendado)
+
+### Requisitos
+
+* Python 3.11+
+* Jupyter Notebook
+
+### Instalação das bibliotecas
+
+```bash
+pip install biopython
+pip install pandas
+pip install numpy
+pip install scipy
+pip install networkx
+pip install matplotlib
+pip install plotly
+pip install scikit-learn
+pip install python-louvain
+pip install infomap
+```
+
+---
+
+## Opção 2 – Google Colab
 
 Todos os notebooks podem ser executados diretamente no **Google Colab** utilizando os links apresentados anteriormente.
 
@@ -98,49 +123,24 @@ Disponível em:
 
 [data/raw/1A3N/1A3N.pdb](./data/raw/1A3N/1A3N.pdb)
 
-ou
-
-https://www.rcsb.org/structure/1A3N
-
 **Proteína 6B1T**
 
 Esses arquivos fazem parte do pacote compactado (**PDB Bundle**) disponibilizado pelo RCSB para a estrutura 6B1T.
 
 Disponível em:
 
-[data/raw/6B1T/6b1t-pdb-bundle1.pdb](./data/raw/6B1T/6b1t-pdb-bundle1.pdb)
-[data/raw/6B1T/6b1t-pdb-bundle2.pdb](./data/raw/6B1T/6b1t-pdb-bundle2.pdb)
+Parte 01: [data/raw/6B1T/6b1t-pdb-bundle1.pdb](./data/raw/6B1T/6b1t-pdb-bundle1.pdb)
 
-ou
+Parte 02: [data/raw/6B1T/6b1t-pdb-bundle2.pdb](./data/raw/6B1T/6b1t-pdb-bundle2.pdb)
+
+Os arquivos também podem ser encontrados diretamente no site RCSB:
+
+https://www.rcsb.org/structure/1A3N
 
 https://www.rcsb.org/structure/6B1T
 
 Após criar os diretórios e copiar os arquivos PDB para os respectivos locais, o notebook poderá ser executado normalmente.
 
-
----
-
-## Opção 2 – Execução local
-
-### Requisitos
-
-* Python 3.11+
-* Jupyter Notebook
-
-### Instalação das bibliotecas
-
-```bash
-pip install biopython
-pip install pandas
-pip install numpy
-pip install scipy
-pip install networkx
-pip install matplotlib
-pip install plotly
-pip install scikit-learn
-pip install python-louvain
-pip install infomap
-```
 
 ---
 
